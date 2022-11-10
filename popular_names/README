@@ -3,6 +3,4 @@ in this folder.
 
 Type: 
 
-chmod 775 names/
-cd names/
-chmod 775 *.txt
+chmod --recursive 775 popular_names/
