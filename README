@@ -1,0 +1,8 @@
+You will need to grant permissions to yourself to read the files
+in this folder.
+
+Type: 
+
+chmod 775 names/
+cd names/
+chmod 775 *.txt
