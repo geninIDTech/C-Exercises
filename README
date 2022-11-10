@@ -1,8 +1,8 @@
-You will need to grant permissions to yourself to read the files
-in this folder.
+# C++ Exercises
 
-Type: 
+C++ Exercises for students I created to apply real world concepts to. These exercises are really involved and require critical thinking.
 
-chmod 775 names/
-cd names/
-chmod 775 *.txt
+
+## Exercise 1: Popular Names
+
+This exercise should be given after learning PODS classes and structs. Uses real world data of baby names from The United States Social Security Administration (SSA).
