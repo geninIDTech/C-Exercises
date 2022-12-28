@@ -1,4 +1,4 @@
-Pokemon
+# Pokemon
 
 We'll be using the actual datafiles from the Bulbapedia website and
 making a pokemon like text game in C++.
