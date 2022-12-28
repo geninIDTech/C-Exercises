@@ -14,7 +14,8 @@ name, hp, attack, defense, speed, special, and type1 and type2. These member
 variables will all be ints except name, type1 and type2, which are strings
 instead.
 
-In case you're curious, a description of what each field means follows:
+In case you're curious, a description of what each field means follows:  
+
     A. The index number can be used by the user to specify what number Pokémon they want.  
     
     B. The name is used to describe the Pokémon, such as "Pikachu"  
@@ -49,8 +50,7 @@ Pokémon can do in the game. It must contain all of the following at a minimum:
 index, name, type, category, PP, power and accuracy. Name, type, and category
 are strings, the others are all integers. What they mean:
 
-    A. Index is the index number that can be used by the user to select a move
-(move 20 is bind, for example)
+    A. Index is the index number that can be used by the user to select a move (move 20 is bind, for example)
 
     B. Name is the name of the move (like "Hyper Beam")
 
