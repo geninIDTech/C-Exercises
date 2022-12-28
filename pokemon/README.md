@@ -15,25 +15,32 @@ variables will all be ints except name, type1 and type2, which are strings
 instead.
 
 In case you're curious, a description of what each field means follows:
-    A. The index number can be used by the user to specify what number Pokémon they want.
-    B. The name is used to describe the Pokémon, such as "Pikachu"
+    A. The index number can be used by the user to specify what number Pokémon they want.  
+    
+    B. The name is used to describe the Pokémon, such as "Pikachu"  
+    
     C. HP is how much damage it can take before it dies. Sorry... "faints, and is
-    sent to the Pokémon farm upstate".
+    sent to the Pokémon farm upstate".  
+    
     D. The attack value is multiplied to all damage this Pokémon does. For
     example, if a Pokémon would normally do 20 damage with an attack, if it had an
-    attack of 10 it would do 200 damage.
+    attack of 10 it would do 200 damage.  
+    
     E. The defense value is divided into all damage this Pokémon receives. For
     example, if a Pokémon would normally take 200 damage from an attack, a Pokémon
     with a defense of 10 would take 20 damage. (Attack and defense thus balance
-            out.)
+            out.)  
+            
     F. Speed is used to determine which Pokémon gets to attack first in a round.
-    If they are tied, flip a coin to see who attacks first.
+    If they are tied, flip a coin to see who attacks first.  
+    
     G. Special works like both attack and defense, but only for attacks marked as
-    "special" attacks.
+    "special" attacks.  
+    
     H. Type1 and type2 hold the type(s) of the Pokémon, which is something like
     "Fire" or "Dragon". Some Pokémon have two types, some only have one. If it has
-    only one type, type2 should be "". Note this is held in a separate file
-(types.txt)
+    only one type, type2 should be "". Note this is held in a separate file (types.txt)  
+    
 
 =====================================================================================
 
